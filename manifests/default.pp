@@ -72,7 +72,7 @@ class java {
   exec { 'build-cassandra':
     command => 'sudo bash /home/vagrant/cassandra_setup.sh',
     path => [ "/bin/", "/sbin/" , "/usr/bin/", "/usr/sbin/" ],
-    logoutput => true
+    #logoutput => true
   }
 
 
